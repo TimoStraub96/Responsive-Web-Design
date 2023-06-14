@@ -607,3 +607,30 @@
   height: 400px;
   width: 100%;
 }
+
+/* Bilder */
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+}
+
+.image-container .metal__picture,
+.image-container .holz__picture {
+  display: flex;
+  flex-direction: row-reverse; /* Bilder rechts anordnen */
+}
+
+.image-container .bronze__picture {
+  display: flex;
+  flex-direction: row; /* Bild links anordnen */
+}
+
+.image-container .metal__picture img,
+.image-container .bronze__picture img,
+.image-container .holz__picture img {
+  width: 100%; /* Die Bilder nehmen die volle Breite des Containers ein */
+  max-width: 500px; /* Maximale Breite der Bilder auf 200 Pixel begrenzen */
+  margin-bottom: 10px;
+}

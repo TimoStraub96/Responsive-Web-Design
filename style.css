@@ -625,6 +625,15 @@
 .image-container .bronze__picture {
   display: flex;
   flex-direction: row; /* Bild links anordnen */
+  margin-left: 200px;
+}
+
+.image-container .metal__picture {
+  margin-right: 200px;
+}
+
+.image-container .holz__picture {
+  margin-right: 200px;
 }
 
 .image-container .metal__picture img,
@@ -632,5 +641,26 @@
 .image-container .holz__picture img {
   width: 100%; /* Die Bilder nehmen die volle Breite des Containers ein */
   max-width: 500px; /* Maximale Breite der Bilder auf 200 Pixel begrenzen */
-  margin-bottom: 10px;
+  margin-bottom: 250px;
+}
+
+.metal__picture {
+  margin-top: 50px;
+}
+
+.image-container .text-container {
+  flex-grow: 1;
+}
+
+.image-container .text-container h2 {
+  margin-bottom: 5px; /* Abstand zwischen Überschrift und Textzeile */
+  text-align: center;
+  color: white;
+}
+
+.image-container .text-container p {
+  color: white;
+}
+.image-container .text-container p {
+  text-align: center; /* Zentrieren des Texts im <p>-Element */
 }

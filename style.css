@@ -313,7 +313,7 @@
   }
 
   .main__content h2 {
-    font-size: 3rem;
+    font-size: 1rem;
   }
 
   .main__content p {
@@ -588,79 +588,4 @@
   margin: 0;
   align-items: center;
 
-}
-
-.maps {
-  position: relative;
-  padding-top: 70px;
-}
-
-.find__us {
-  position: absolute;
-  color: white;
-  top: 0;
-  z-index: 1;
-  padding: 10px;
-}
-
-#map {
-  height: 400px;
-  width: 100%;
-}
-
-/* Bilder */
-
-.image-container {
-  display: flex;
-  flex-direction: column;
-  background-color: #141414;
-}
-
-.image-container .metal__picture,
-.image-container .holz__picture {
-  display: flex;
-  flex-direction: row-reverse; /* Bilder rechts anordnen */
-}
-
-.image-container .bronze__picture {
-  display: flex;
-  flex-direction: row; /* Bild links anordnen */
-  margin-left: 200px;
-}
-
-.image-container .metal__picture {
-  margin-right: 200px;
-}
-
-.image-container .holz__picture {
-  margin-right: 200px;
-}
-
-.image-container .metal__picture img,
-.image-container .bronze__picture img,
-.image-container .holz__picture img {
-  width: 100%; /* Die Bilder nehmen die volle Breite des Containers ein */
-  max-width: 500px; /* Maximale Breite der Bilder auf 200 Pixel begrenzen */
-  margin-bottom: 250px;
-}
-
-.metal__picture {
-  margin-top: 50px;
-}
-
-.image-container .text-container {
-  flex-grow: 1;
-}
-
-.image-container .text-container h2 {
-  margin-bottom: 5px; /* Abstand zwischen Überschrift und Textzeile */
-  text-align: center;
-  color: white;
-}
-
-.image-container .text-container p {
-  color: white;
-}
-.image-container .text-container p {
-  text-align: center; /* Zentrieren des Texts im <p>-Element */
 }

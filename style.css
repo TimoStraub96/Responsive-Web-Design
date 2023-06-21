@@ -351,6 +351,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  padding-top: 50px;
 }
 
 .services h1 {
@@ -589,3 +590,20 @@
   align-items: center;
 
 }
+
+.carousel-item {
+  
+  background-color: #141414;
+ 
+}
+
+.carousel-inner img {
+  max-width: 50%;
+  max-height: 50%;
+  width: auto;
+  height: auto;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+

@@ -294,7 +294,7 @@
 @media screen and (max-width: 768px) {
   .main__container {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
     align-items: center;
     justify-self: center;
     width: 100%;
@@ -329,7 +329,7 @@
   }
 
   .main__content h2 {
-    font-size: 2rem;
+    font-size: 1rem;
   }
 
   .main__content p {
@@ -343,7 +343,7 @@
   }
 
   .main__img--container {
-    padding-top: 0;
+    padding-top: 100px;
   }
 }
 
@@ -386,6 +386,10 @@
   background-size: cover;
   position: relative;
   color: #000000;
+  display: flex;
+  flex-direction: co;
+  justify-content: flex-end;
+  padding: 20px;
 }
 
 .services__card:nth-child(2) {
@@ -426,7 +430,7 @@
 }
 
 @media screen and (max-width: 960px) {
-  .services {
+  .services .home-testimonial {
     height: 1600px;
   }
 
@@ -437,9 +441,23 @@
 }
 
 @media screen and (max-width: 480px) {
-  .services {
+  .services .home-testimonial{
     height: 1400px;
+    padding-bottom: 100px;
   }
+  .home-testimonial h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .home-testimonial {
+    align-items: center;
+    display: flex;
+  }
+  .home-testimonial-bottom {
+    
+  }
+  
 
   .services h1 {
     font-size: 1.2rem;
@@ -634,7 +652,7 @@
 
 .home-testimonial h2{
   color: white;
-  font-size: 28px;
+  font-size: 35pxx;
   font-weight: 700
 }
 
@@ -678,3 +696,11 @@
   font-family: "Montserrat", Sans-serif;
   font-size: 12px;color: #6c83a2
 }
+
+@media screen and (max-width: 992px) {
+  
+  .home-testimonial {
+    grid-template-columns: 1fr;
+  }
+}
+

@@ -432,6 +432,7 @@
 @media screen and (max-width: 960px) {
   .services .home-testimonial {
     height: 1600px;
+  
   }
 
   .services h1 {
@@ -453,11 +454,7 @@
   .home-testimonial {
     align-items: center;
     display: flex;
-  }
-  .home-testimonial-bottom {
-    
-  }
-  
+  } 
 
   .services h1 {
     font-size: 1.2rem;
@@ -600,6 +597,10 @@
     padding: 10px;
     width: 100%;
   }
+
+  .footer__container {
+    padding-top: 800px;
+  }
 }
 
 /*Google Maps*/
@@ -627,6 +628,34 @@
   align-items: center;
   margin: 0 auto;
   padding-bottom: 140px;
+}
+
+
+@media (max-width: 767px) {
+  .carousel-item {
+    position: relative;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    margin-bottom: -200px; /* Ändern Sie den Wert nach Bedarf */
+  }
+
+    .services {
+      padding-bottom: 1200px;
+    }
+
+    .home-testimonial {
+
+    }
+    
+}
+
+.Zeilenumbruch {
+  background-color: #141414;
 }
 
 
@@ -700,7 +729,7 @@
 @media screen and (max-width: 992px) {
   
   .home-testimonial {
-    grid-template-columns: 1fr;
+    height: fit-content;
   }
 }
 

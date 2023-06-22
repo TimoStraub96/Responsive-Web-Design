@@ -569,9 +569,13 @@
   color: #fff;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 991px) {
   .footer__links {
     padding-top: 2rem;
+  }
+
+  .footer__container {
+    padding-top: 250px;
   }
 
   .footer__logo {
@@ -603,16 +607,6 @@
   }
 }
 
-/*Google Maps*/
-
-.maps {
-  display: flex;
-  background: #141414;
-  justify-content: center;
-  margin: 0;
-  align-items: center;
-
-}
 
 .carousel-item {
   
@@ -642,6 +636,7 @@
     color: #fff;
     text-align: center;
     margin-bottom: -180px; /* Ändern Sie den Wert nach Bedarf */
+    font-size: 50%;
   }
 
 
@@ -740,3 +735,33 @@
 
 }
 
+/* Media Query für die mobile Ansicht */
+@media (max-width: 767px) {
+  .testimonial-inner .col-md-4 .carousel-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .testimonial-inner .col-md-4 .carousel-caption h5,
+  .testimonial-inner .col-md-4 .carousel-caption p {
+    margin-bottom: 10px;
+  }
+}
+
+/* Media Query für Tablet-Ansicht */
+@media (max-width: 991px) {
+  
+
+  footer {
+    position: relative;
+   margin-top: 500px;
+  }
+
+ 
+  .home-testimonial {
+    padding-top: 200px;
+  }
+}
